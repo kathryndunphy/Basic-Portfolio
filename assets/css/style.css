@@ -1,0 +1,55 @@
+*{
+box-sizing: border-box; 
+}
+.background{
+    background-color: image("whirlpool.png");
+    background-position: center;
+    z-index: 1;
+}
+.nav{
+    float:right;
+    margin:5px;
+    padding:30px;
+    /* max-width: 960px; */
+    margin-right:auto;   
+}
+
+.header{
+    float:left;
+    /* display: inline-block; */
+    position:relative;
+    /* padding:50px;
+    padding-top:15px;
+    width:33.3%; */
+    margin-left:auto;
+}
+.cf{
+    clear: both;
+    overflow: auto;
+  }
+  
+.bio{
+    /* box-sizing: border-box; */
+    /* float:left; */
+    position: relative;
+    max-width:960px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.image{
+    height: 210px;
+    width:150px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom:5px;
+    display:inline-block;
+}
+.divleft{
+    float:left;
+    margin-right:33.3%;
+    width:33.3%;
+}
+.divright{
+    float:right;
+    width:33.3%;
+}
