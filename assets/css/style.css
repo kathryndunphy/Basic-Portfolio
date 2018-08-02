@@ -1,50 +1,118 @@
 *{
-box-sizing: border-box; 
+margin=0;
+}
+html, section{
+    height:100%;
+}
+.style {
+    position:fixed;
+    top:0px;
+    overflow:hidden;
+}
+.topnav{
+    z-index: 1;
+    font-size:25px;
+    background-color: #ffffff;
+    color:#777777;
+    width:100%;
+    padding:0;
+    border-bottom:4px solid #cccccc;
+    height:125px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .background{
-    background-color: image("whirlpool.png");
-    background-position: center;
-    z-index: 1;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ignasi_pattern_s.png");
+    z-index: auto;
+    padding-top:0;
+    margin-top:0;
 }
 .nav{
     float:right;
-    margin:5px;
-    padding:30px;
+    /* margin:10px; */
+    padding:5px;
+    padding-top:20px;
+    padding-right:5px;
     /* max-width: 960px; */
-    margin-right:auto;   
+    margin-right:0px;  
+    font-size:20px;
+    top:0;
+    text-decoration: none;
+    color:#777777;
 }
-
+.div1{
+    box-sizing: content-box;
+    max-width: 960px;
+    background-color: #ffffff;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 0;
+    top: 0;
+    position: relative;
+    max-height:121px;
+    font-family: 'georgia', 'Times New Roman', Times, serif;
+}
+/* .navdiv{
+    box-sizing: border-box;
+    max-width: 100%;
+} */
 .header{
+    box-sizing: content-box;
     float:left;
     /* display: inline-block; */
     position:relative;
-    /* padding:50px;
-    padding-top:15px;
-    width:33.3%; */
-    margin-left:auto;
+    width:295px;
+    height:75px;
+    text-align: center;
+    color: #ffffff;
+    margin-top:auto;
+    margin-bottom: 0px;
+    padding-top:30px;
+    padding-bottom: 0px;
+    background-color:#4aaaa5;
+    font-size:30px;
 }
+
 .cf{
     clear: both;
     overflow: auto;
   }
   
+.about{
+    color:#4aaaa5;
+    font-family: 'georgia', 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}  
+.hr{
+    color:#cccccc;
+    margin:0;
+    padding:0;
+}
 .bio{
-    /* box-sizing: border-box; */
-    /* float:left; */
-    position: relative;
+    box-sizing: border-box;
+    position: static;
     max-width:960px;
+    padding:15px;
     margin-left:auto;
     margin-right:auto;
+    margin-top: 30px;
+    margin-bottom:0;
+    background-color: #ffffff;
+    border:4px solid #cccccc;
+    font-size: 18px;
+    font-family: arial, helvetica neue, helvetica, sans-serif;
+   
 }
 .image{
     height: 210px;
     width:150px;
     float:left;
+    margin-top:10px;
     margin-right: 10px;
     margin-bottom:5px;
     display:inline-block;
 }
-.divleft{
+/* .divleft{
     float:left;
     margin-right:33.3%;
     width:33.3%;
@@ -52,4 +120,26 @@ box-sizing: border-box;
 .divright{
     float:right;
     width:33.3%;
+} */
+.site-footer{
+    position:fixed;
+    bottom:0px;
+    
+    border-top: 4px solid #008080;
+    width: 100%;
+    height:30px;
 }
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -30px; 
+  }
+  .page-wrap:after {
+    content: "";
+    display: block;
+  }
+  .site-footer, .page-wrap:after {
+    height: 30px; 
+  }
+  .site-footer {
+    background-color:#666666;
+  }
