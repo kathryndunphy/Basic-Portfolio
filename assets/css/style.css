@@ -1,4 +1,192 @@
 *{
+    box-sizing: border-box;
+    margin:0 auto;
+ }
+ body{
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ignasi_pattern_s.png");     
+ }
+ .container{
+     max-width: 960px;
+     margin:0 auto;
+     padding:0 auto;
+ }
+ .header{
+     position:fixed;
+     display: inline-block;
+     width:100%;
+     color:#ffffff;
+     border-bottom: 4px solid #cccccc;
+     height:90px;
+     margin-bottom:30px;
+     background-color:#ffffff;
+     margin-top:0;
+ }
+ .header-name{
+     box-sizing: content-box;
+     float:left;
+     height:50px;
+     text-align: center;
+     line-height: 2;
+     padding:10px;
+     display:inline-block;  
+     background-color: #4aaaa5;
+     color: #ffffff;
+     font-family:'georgia', 'Times New Roman', Times, serif;
+     margin-bottom:0;
+     margin-left:0;
+     margin-top:16px;
+     font-size:25px;
+ }
+ .nav{
+     box-sizing: content-box;
+     float:right;
+     text-decoration:none;
+     color:#777777;
+     font-size:25px;
+     padding:10px;
+     margin-top:22px;
+     /* font-family:'georgia', 'Times New Roman', Times, serif; */
+ }
+ .nav a{
+     text-decoration:none;
+     color:#777777;  
+ }
+ .cf{
+     clear: both;
+     overflow: auto;
+   }
+   
+   .bio{
+     box-sizing: border-box;
+     position: relative;
+     max-width:960px;
+     padding:15px;
+     padding-top:5px;
+     /* margin-left:auto;
+     margin-right:auto; */
+     margin-top: 100px;
+     margin-bottom:0;
+     background-color: #ffffff;
+     border:4px solid #cccccc;
+     font-size: 17px;
+     line-height: 1.5;
+     color:#777777; 
+     font-family: arial, helvetica neue, helvetica, sans-serif;
+     
+    }
+   .about{
+     color:#4aaaa5;
+     font-family: 'georgia', 'Times New Roman', Times, serif;
+     font-size: 25px;
+     /* position: absolute; */
+     /* margin-top:25px; */
+     
+   }
+   .hr{
+     color:#cccccc;
+     margin:0;
+     padding:0;
+ }
+ .image{
+     height: 210px;
+     width:150px;
+     float:left;
+     /* padding:15px; */
+     margin-top:8px;
+     margin-right: 5px;
+     margin-bottom:3px;
+     display:inline;
+ }
+ .site-footer{
+         position:fixed;
+         bottom:0px;
+         background-color:#666666;
+         border-top: 4px solid #008080;
+         width: 100%;
+         height:30px;
+ }
+form{
+    font-size: 17px;
+    line-height: 1.5;
+    color:#777777;
+    font-family: arial, helvetica neue, helvetica, sans-serif;
+ }
+input[type=text]{
+     width:100%;
+ }
+ input[type=email]{
+     width:100%;
+ }
+textarea{
+     width:100%;
+     height:150px;
+ }
+ul{
+    list-style: none;
+    position: absolute;
+}
+/* .project {
+    float: left;
+    top: -10px;
+    width: 100%; */
+}
+.project{
+    float:left;
+    position:relative;
+    top:-40px;
+    text-align: center;
+}
+.project-title {
+    float: left;
+    position: relative;
+    top: -40px;
+    width: 100%;
+    height: 20px;
+    background-color: #4aaaa5;
+    color: #feffff;
+    text-align: center;
+}
+li {
+    float: left;
+    width: 74%;
+    padding: 10px;
+}
+
+ /*EXAMPLES OF MY MILLIONS OF PREVIOUS ATTEMPTS  */
+ /* 
+ .item-a {
+     grid-area: header;
+   }
+   .item-b {
+     grid-area: main;
+   }
+   .item-c {
+     grid-area: left right;
+   }
+   .item-d {
+     grid-area: footer;
+   }
+ .container{
+     display:grid;
+     grid-template-columns:[one] 1fr [main] 960px [three] 1fr;
+     grid-template-rows: [header] 90px [middle] auto [right] 57.5px;
+     grid-template-areas:
+         " header header header"
+         "left main right"
+         "footer footer footer";
+ 
+ }
+ .header{
+     grid-column:2;
+     grid-row:1;
+     background-color:#4aaaa5;
+     color:#ffffff;
+     font-size:28.75;
+     font-family: georgia, times, times new roman, serif;
+ 
+ } */
+
+/* *{
 margin=0;
 }
 html, section{
@@ -8,8 +196,8 @@ html, section{
     position:fixed;
     top:0px;
     overflow:hidden;
-}
-.topnav{
+} */
+/* .topnav{
     z-index: 1;
     font-size:25px;
     background-color: #ffffff;
@@ -23,19 +211,25 @@ html, section{
 .background{
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/ignasi_pattern_s.png");
     z-index: auto;
-    padding-top:0;
-    margin-top:0;
+    padding:0;
+    margin:0 auto;
+    overflow:auto;
+    clear:both;
 }
 .nav{
-    float:right;
+    float:right; */
     /* margin:10px; */
-    padding:5px;
+    /* padding:5px;
     padding-top:20px;
-    padding-right:5px;
+    padding-right:5px; */
     /* max-width: 960px; */
-    margin-right:0px;  
+    /* margin-right:0px;  
     font-size:20px;
     top:0;
+    text-decoration: none;
+    color:#777777;
+}
+.navlinks{
     text-decoration: none;
     color:#777777;
 }
@@ -50,16 +244,16 @@ html, section{
     position: relative;
     max-height:121px;
     font-family: 'georgia', 'Times New Roman', Times, serif;
-}
+} */
 /* .navdiv{
     box-sizing: border-box;
     max-width: 100%;
 } */
-.header{
+/* .header{
     box-sizing: content-box;
-    float:left;
+    float:left; */
     /* display: inline-block; */
-    position:relative;
+    /* position:relative;
     width:295px;
     height:75px;
     text-align: center;
@@ -96,7 +290,7 @@ html, section{
     margin-left:auto;
     margin-right:auto;
     margin-top: 30px;
-    margin-bottom:0;
+    margin-bottom:auto;
     background-color: #ffffff;
     border:4px solid #cccccc;
     font-size: 18px;
@@ -112,6 +306,20 @@ html, section{
     margin-bottom:5px;
     display:inline-block;
 }
+.form{
+    box-sizing: border-box;
+    display:inherit;
+    position: static;
+    max-width:960px;
+    padding:15px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 30px;
+    margin-bottom:0;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-family: arial, helvetica neue, helvetica, sans-serif;
+} */
 /* .divleft{
     float:left;
     margin-right:33.3%;
@@ -121,7 +329,7 @@ html, section{
     float:right;
     width:33.3%;
 } */
-.site-footer{
+/* .site-footer{
     position:fixed;
     bottom:0px;
     
@@ -142,4 +350,4 @@ html, section{
   }
   .site-footer {
     background-color:#666666;
-  }
+  } */
