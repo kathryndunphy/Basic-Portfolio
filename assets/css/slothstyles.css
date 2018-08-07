@@ -1,0 +1,34 @@
+.italic {font-style: italic;}
+.bold {font-weight: bold;}
+.list {list-style-type: none;
+      padding: 0;
+      margin: 0;}
+.border {border: solid;
+    border-width: thin;
+    border-color: tan;
+    padding: 3px;
+    margin: 5px;
+    max-width: 310px}
+.image {width: 100%;
+    max-width: 300px; margin: inherit;
+    }
+.heading {padding-left: 7px}
+.shadow {box-shadow: 10px 5px 5px lightgray;}
+.background {background-color: wheat;}
+.font {color: sienna;
+    font-size: x-small;
+}
+
+
+
+    /* .fact {font-style: italic;}
+    .label {font-weight: bold;}
+    .list {list-style-type: none;
+          padding: 0;
+          margin: 0;}
+    .border {border: solid;
+        padding: 5px;
+        margin: auto;
+        max-width: 310px}
+    .image {width: 100%auto;
+        max-width: 300px;} */
